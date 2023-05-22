@@ -60,8 +60,3 @@ class DataSet(torch.utils.data.Dataset):
 
         return audio_paths
 
-if __name__ == "__main__":
-    dataset = DataSet()
-    df = dataset.load_dataset("/Users/kimsan/Desktop/Lecture-Materials/3-1/AIGS538-Deep-Learning/final-project/data/birdclef-2023/train_audio")
-    print(df.shape)
-
